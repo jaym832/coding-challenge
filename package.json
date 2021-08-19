@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/DanDaManTran/codingExercises#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bluebird": "^3.5.4",
     "chai": "^4.2.0",
-    "lodash": "^4.17.11",
-    "mocha": "^6.1.4"
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.3"
   }
 }
