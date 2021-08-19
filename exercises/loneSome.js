@@ -11,4 +11,28 @@ Write your code below the comment.
 
 */
 
+
+
+
+let numArr=[a,b,c]
+let totalSum=0
+
+for(i=0;i<numArr.length;i++){
+  
+    let instances=numArr.filter(function(e){      
+      return e==numArr[i]
+    })
+
+
+    if(instances.length>=2){
+      totalSum+=0;
+    }else{
+      totalSum+=numArr[i];
+
+    }
+        
+  
+}
+return totalSum
+
 };

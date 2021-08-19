@@ -16,4 +16,12 @@ module.exports.run = function(csv){
 	Write your code below the comment.
 */
 
+
+//  function addPerson(firstName,lastName,ago){
+	// 	 let peopleArr=[];
+	
+	
+	//  }
+	
 };
+console.log(csv);

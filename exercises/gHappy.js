@@ -10,4 +10,23 @@ Return true if all the g's in the given string are happy, otherwise return false
         Write your code below the comment.
 */
 
+//check to see if there is a g
+//check to see if there is another g to the left or right
+
+let isHappy=false
+
+if(str.includes('g')){
+	for(let i=0;i<str.length;i++){
+		if(str[i]==='g'&& (str[i+1]==='g'|| str[i-1]==='g')){
+      isHappy=true;
+		}
+    else if(str[i]==='g'){ 
+      isHappy=false;
+    }
+    
+    
+	}
+}
+return isHappy;
+
 };

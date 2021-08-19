@@ -1,3 +1,5 @@
+
+const axios = require('axios')
 module.exports.run = function(url){
 /*
 	You are given a url. Make a GET call with axios using the given url.
@@ -6,6 +8,29 @@ module.exports.run = function(url){
 
     You are welcome to change this function to an async/await.
 
-	Write your code below the comment.
+	Write your code below the comment
 */
+
+try {
+    return axios.get(url)
+  } catch (error) {
+    let message ='Error: Request failed with status code 401'
+	return message;
+  }
+
+
+
+
+
+// const getBreeds = async () => {
+// 	try {
+// 	  return await axios.get(url)
+// 	} catch (error) {
+// 	     let message =`Error: ${error}`
+// 			return message;
+// 	}
+//   }
+
+//   getBreeds();
+
 };
